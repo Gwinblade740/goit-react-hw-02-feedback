@@ -1,5 +1,4 @@
 import propTypes from 'prop-types';
-import css from 'components/FeedbackStatistics/FeedbackStatistics.module.css';
 
 const FeedbackStatistics = ({ good, neutral, bad, total, count }) => {
   return (
@@ -13,10 +12,10 @@ const FeedbackStatistics = ({ good, neutral, bad, total, count }) => {
   );
 };
 FeedbackStatistics.propTypes = {
-    good: propTypes.number,
-    neutral: propTypes.number, 
-    bad: propTypes.number,
-    total: propTypes.func,
-    count: propTypes.func
+  good: propTypes.number,
+  neutral: propTypes.number,
+  bad: propTypes.number,
+  total: propTypes.func,
+  count: propTypes.func,
 };
 export default FeedbackStatistics;
